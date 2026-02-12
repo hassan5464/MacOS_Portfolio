@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100..900&display=swap');
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wdth,wght@0,62.5..150,100..900;1,62.5..150,100..900&display=swap');
 
 
-html,
+@theme {
+  --font-georama: "Georama", Monospace;
+  --breakpoint-3xl: 1920px;
+
+}
+
+
 body {
   width: 100dvw;
   height: 100dvh;
@@ -13,14 +19,12 @@ body {
   background-position: center;
 }
 
-;
+/* :root {
+  --font-georama: "Georama", Monospace;
+} */
 
-@theme {
-  --font-georama: "Georama", sans-serif;
-  --font-roboto: "Roboto Mono", monospace;
-  --breakpoint-3xl: 1920px;
 
-}
+
 
 @layer utilities {
   .flex-center {

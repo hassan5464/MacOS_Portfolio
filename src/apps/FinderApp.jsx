@@ -1,4 +1,3 @@
-import React from 'react';
 import { Folder } from 'lucide-react';
 
 const FinderApp = () => {
